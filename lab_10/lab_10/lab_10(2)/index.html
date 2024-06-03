@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+  <title>task2</title>
+</head>
+
+<body>
+  <form action="" method="">
+    <div class="cmodal open">
+      <div class="modal-overlay" data-close="true">
+        <div class="modal-window" style="width: 500px">
+          <div class="modal-header"><span class="modal-title">Mouse options</span><span class="modal-close" data-close="true">×</span></div>
+          <div class="modal-body">
+            <div class="modal-form">
+                <label for="brand">Виробник/Модель:</label><br>
+                <input type="text" id="brand" name="brand" class="modal-form-field" placeholder="Введіть виробника і модель кулера..."><br><br>
+                <label for="connection">Інтерфейс підключення з ПК:</label><br>
+                <input type="text" id="connection" name="connection" class="modal-form-field" placeholder="Введіть інтерфейс підключення миші з ПК..."><br><br>
+                <label for="type">Тип сенсора:</label><br>
+                <select id="type" name="type" class="modal-form-field">
+                  <option value="Ball">Шарикова</option>
+                  <option value="Optical">Оптична</option>
+                  <option value="Laser">Лазерна</option>
+              </select>
+                <br><br>
+                <label for="numberOfButtons">Кількість кнопок:</label><br>
+                <input type="number" id="numberOfButtons" name="numberOfButtons" class="modal-form-field" placeholder="Введіть кількість кнопок миші..."><br><br>
+                <label for="color">Колір корпусу миші:</label><br>
+                <input type="text" id="color" name="color" class="modal-form-field" placeholder="Введіть колір корпусу миші..."><br><br>
+                <div id="img-prev-section" style="display: block">
+                  <img id="imgprev" src="#">
+                </div>
+                    <label for="file" id="label-select-img">Select image file:</label><br>
+                    <input type="file" id="imgfile" name="imgfile"><br><br>
+                    <input type="submit" value="Confirm" class="blue-button">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+<script src="index.js"></script>
+<script>
+
+</script>
+
+</html>

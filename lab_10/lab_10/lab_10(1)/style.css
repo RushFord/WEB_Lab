@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-height: 100vh; 
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    min-width: 760px;
+}
+body{
+    display: flex;
+}
+.form{
+    /* overflow: hidden; */
+}
+
+form{
+    background-color: #a0cccd;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+.title{
+    margin:20px 0px 0px -40px;
+    width: 550px;
+    height: 50px;
+    padding: 10px 0px 10px 70px;
+    background-color: #db6422;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 25px;
+    z-index: 10;
+}
+.field{
+    background-color: #aad2d2;
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid #4f7978;
+    color: #426e6f;
+}
+.cardNumber, .name{
+    width: 350px;
+    padding: 10px;
+}
+.cardDiv, .nameDiv{
+    padding: 10px 30px;
+}
+.foot{
+    display:flex;
+    padding: 10px 30px;
+}
+.month, .year, .cvv{
+    width: 97px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+}
+label{
+    opacity: 70%;
+}
+input[type=text], input[type=number]{
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 50px 0px 0px 0px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.imgm{
+    width: 350px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.form1{
+    display: flex;
+}

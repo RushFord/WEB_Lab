@@ -1,0 +1,33 @@
+img {
+    width: 330px;
+    height: 180px;
+    filter: grayscale(100%);
+    transition-duration: 0.2s;
+}
+
+img:hover{
+    filter: grayscale(0);
+    transform: translateY(-5px);
+}
+
+.image {
+    display: inline-block;
+    width: 330px;
+    padding: 5px;
+}
+
+.wrapper {
+    width: 1040px;
+}
+
+@media (max-width: 960px) {
+    .wrapper{
+        width: 700px;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper{
+        width: 400px;
+    }
+}

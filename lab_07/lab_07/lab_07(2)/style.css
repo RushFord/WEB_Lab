@@ -1,0 +1,30 @@
+.bk * {
+    border: 2px solid rgb(13, 12, 78);
+    padding:20px;
+    background-color: rgb(142, 142, 240);
+}
+
+.bk{
+    width:250px;
+    margin:50px;
+}
+
+header {
+    clear: both;
+}
+
+nav {
+    clear: both;
+}
+
+main {
+    float: left;
+}
+
+aside {
+    float: left;
+}
+
+footer{
+    clear:both;
+}

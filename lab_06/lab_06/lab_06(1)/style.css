@@ -1,0 +1,43 @@
+  #clock {
+    margin:50px;
+    width: 400px;
+    height: 400px;
+    border: 3px solid #03b3b6;
+    border-radius: 50%;
+    position: relative;
+  }
+  #hour {
+    width: 140px;
+    height: 6px;
+    animation: r 60S infinite linear;
+    transform-origin: left center;
+    z-index: 1;
+    background-color: #03b3b6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #minute {
+    z-index: 1;
+    width: 190px;
+    height: 3px;
+    animation: r 1s infinite linear;
+    transform-origin: left center;
+    background-color: #03b3b6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #colo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #03b3b6;
+    top: 47%;
+    left: 47%;
+    position: absolute;
+  } 
+  @keyframes r {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

@@ -1,0 +1,24 @@
+.load {
+    width: 900px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 90px;
+    border: 4px solid #2c00ee;
+}
+.load::before{
+    content: "";
+    width: 100px;
+    height: 40px;
+    position: relative;
+    background: #2c00ee;
+    animation: go 1056ms linear infinite;
+}
+@keyframes go {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
