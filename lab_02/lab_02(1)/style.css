@@ -1,0 +1,20 @@
+ol {
+    background-color: #f0c0c0;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    padding-left: 15px;
+}
+
+li {
+    background-color: #e08080;
+    margin: 5px; 
+    padding: 5px;
+    list-style-position: inside;
+}
+
+span {
+    background-color: #d04040;
+    padding: 3px;
+
+}

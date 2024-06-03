@@ -1,0 +1,10 @@
+.big {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.small {
+    margin: 35px;
+
+}

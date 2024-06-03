@@ -1,0 +1,20 @@
+ul {
+    list-style: none;
+    list-style-image: url('arrow-right_16.png');
+}
+.winter_seasons{
+    list-style-image: url('snowflake_16.png');
+}
+
+li {
+    padding-right: 10px;
+}
+.spring_seasons{
+    list-style-image: url('leaf_g_16.png');
+}
+.summer_seasons{
+    list-style-image: url('sun_16.png');
+}
+.autumn_seasons{
+    list-style-image: url('leaf_y_16.png');
+}
